@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Wade's GifTastic Site</title>
+
+    <!-- Latest compiled and minified CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+    <link rel="stylesheet" type="text/css" href=".\assets\css\style.css">
+    
+    <!--jQuery CDN link-->
+    <script src="https://code.jquery.com/jquery-3.3.1.js" integrity="sha256-2Kok7MbOyxpgUVvAk/HJ2jigOSYS2auK4Pfzbm7uH60=" crossorigin="anonymous"></script>
+    
+    <!-- Latest compiled and minified JavaScript -->
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+    
+    <script src=".\assets\javascript\giftastic.js"></script>
+</head>
+<body>
+    <!-- Image and text -->
+    <div class="container">
+    
+        <nav class="navbar navbar-light bg-light">Wade's GifTastic API Site
+            <a class="navbar-brand">
+                <img src=".\assets\images\check.jpeg" width="30" height="30" class="d-inline-block align-top" alt="checkmark">
+            </a>
+        </nav>
+
+        <div class="row">
+            <div class="col-sm" id="buttonRow"></div>
+        </div>
+
+        <div class="row" id="testRow"></div>
+
+        <div class="row">
+            <div class="col-sm-8" id="imageCol">
+
+            </div>
+            
+            <div class="col-sm-4" id="formCol">
+                
+                <form>
+                    <div class="form-group">
+                        <label for="textInput">Add a new sport</label>
+                        <input type="text" class="form-control" id="textInput" aria-describedby="textHelp" placeholder="Type in new sport here">
+                    </div>
+                    
+                    <button type="button" class="btn btn-primary" id="submitButton">Submit</button>
+                </form>
+            
+            </div>
+        </div>
+    </div>
+
+</body>
+</html>
