@@ -14,3 +14,12 @@ nav {
 body {
     background-color: rgb(201, 231, 241);
 }
+
+.image-Class {
+    margin-top: 2%;
+}
+
+.giphy-Imgs {
+    margin: 1%;
+    display: block;
+}
