@@ -60,19 +60,3 @@ $(document).on("click", ".giphy-Imgs", function() {
 });
 
 });
-
-//extra unused code below
-
-//$("#submitButton").submit(function( event ) {
-  //  alert( "Handler for .submit() called." );
-    //event.preventDefault();
-  //});
-
-  //$("#imageCol").append(`<figure class="divImg"><img src="${response.data[i].images.fixed_height_still.url}" alt="giphy" width="150" height="150" no-motion="${response.data[i].images.fixed_height_still.url}" motion="${response.data[i].images.fixed_height.url}" gif-status="no-motion" class="giphy-Imgs"><figcaption="spanClass">Rating: ${rating}</figcaption></figure>`);
-
-//$("#imageCol").append(`<p class="rateClass">Rating: ${rating}</p>`);
-
-//console.log("rating", rating);
-//$("#imageCol").append(`<span>"Rating: "<img src="${response.data[i].images.fixed_height_small_still.url}" class="giphy-Imgs"></span>`);
-//$("#imageCol").append(`<img src="${response.data[i].images.fixed_height_small_still.url}" class="giphy-Imgs">`);
-    //$("#buttonRow").append(` <button class="dynamicButton" id="addedButton" value="${textInputVal}">${textInputVal}</button>`);
